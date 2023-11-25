@@ -10,8 +10,8 @@ let alccol = adultos * 2;
 let refri = totalpessoas * 0.5;
 let agua = totalpessoas * 0.4;
 
-if (adultsTotal === 0) {
-    alert('Não é possível fazer um churrasco sem adultos responsáveis!');
+if (adultsTotal <= 0) {
+    alert('Não é possível fazer um churrasco nestas condições!');
 } else {
     alert(`A quantidade de carne necessária será ${totalCarne.toFixed(2)}KG`);
     alert(`A quantidade de acompanhamentos necessários será de ${sideDishes.toFixed(2)}KG`);
